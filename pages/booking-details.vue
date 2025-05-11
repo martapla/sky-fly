@@ -6,7 +6,7 @@
       Home
     </NuxtLink>
 
-    <h1 class="sm:mb-0 md:mb-8 text-white sky-title">Sky Fly</h1>
+    <h1 class="sm:mb-0 md:mb-8 text-white sky-title md:text-8xl md:pt-2 md:pb-6">Sky Fly</h1>
     <BookingDetailsForm />
   </div>
 </template>

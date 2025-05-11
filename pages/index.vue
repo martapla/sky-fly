@@ -1,9 +1,9 @@
 <template>
   <div
-    class="min-h-screen bg-gray-100 flex flex-col items-center justify-center sm:pt-6 md:pt-8 space-y-8 sm:py-4 md:py-10 px-4 bg-cover bg-center"
+    class="min-h-screen bg-gray-100 flex flex-col items-center sm:pt-6 md:pt-8 space-y-8 py-4  px-4 bg-cover bg-center"
     style="background-image: url('/images/sky.jpg')">
 
-    <h1 class=" text-white sky-title">Sky Fly</h1>
+    <h1 class=" text-white sky-title md:text-8xl md:p-6">Sky Fly</h1>
 
     <div class="w-full max-w-xl">
       <FlightBookingForm />
