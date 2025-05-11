@@ -1,10 +1,9 @@
 <template>
-    <div
-      class="w-full max-w-md bg-white rounded-2xl shadow-lg overflow-hidden font-mono border border-pink-300"
-    >
+    <div class="w-full max-w-sm sm:max-w-md bg-white rounded-2xl shadow-lg overflow-hidden font-mono border border-pink-300 mx-4 sm:mx-auto">
+
       <!-- Top Section -->
       <div class="bg-pink-50 p-6 rounded-2xl">
-        <h2 class="text-3xl font-normal text-pink-600 text-center font-sans mb-6">
+        <h2 class="text-3xl font-normal text-pink-600 text-center font-sans mb-4">
           Boarding Pass
         </h2>
   
@@ -29,7 +28,8 @@
             <img
             src="/images/qr.png"
             alt="QR Code"
-            class="w-18 h-auto mx-auto m-3"
+            class="w-1/2 sm:w-1/3 h-auto mx-auto "
+            
             />
         </div>
       </div>
